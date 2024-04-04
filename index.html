@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1 id="hello"></h1>
+  <h2>Hello, my name is Ryan Couchman</h2>
+  <p>welcome to my personal site. I will use this a a place to feature my projects and share what I am working on with the word</p>
+</body>
+<script>
+var i = 0;
+var txt = 'hello, World!';
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hello").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
+</script>
+</html>
