@@ -21,6 +21,6 @@ function typeWriterHelper(word, id) {
  */
 function typeWriter(word, id) {
   i = 0;
-  typeWriterHelper(word, id);
+  setTimeout(typeWriterHelper, 1000, word, id);
 }
 
