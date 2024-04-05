@@ -8,9 +8,9 @@ var speed = 100 // Time to passe in ms for typewriter animation
  */
 function typeWriterHelper(word, id) {
   if (i < word.length) {
-    document.getElementById(id).innerHTML += word.charAt(this.i);
-    this.i++;
-    setTimeout(typeWriterHelper(word, id), 100);
+    document.getElementById(id).innerHTML += word.charAt(i);
+    i++;
+    setTimeout(typeWriterHelper, speed, word, id);
   }
 }
 
@@ -20,7 +20,7 @@ function typeWriterHelper(word, id) {
  * @param {string} id 
  */
 function typeWriter(word, id) {
-  this.i = 0;
+  i = 0;
   typeWriterHelper(word, id);
 }
 
