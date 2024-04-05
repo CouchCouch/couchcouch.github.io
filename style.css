@@ -1,25 +1,54 @@
 body {
-    margin: .5%;
-    background-color: #313131;
-    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
-    color: #ffffff;
+  margin: 1%;
+  background-color: #313131;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
 }
 
 h1 {
-    font-size: 500%;
-    color: #00ff00;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: 500%;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  display: flex;
+}
+
+.github_link {
+  margin-left: auto;
+  margin-right: 0%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0%;
+  margin: 0%;
 }
 
 h2, p {
-    margin: .01%;
+  margin: .1%;
 }
 
 h2 {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 p {
-    font-size: 120%;
+  font-size: 120%;
 }
 
+a {
+  color: #ffffff;
+}
+
+a :visited svg{
+  color: #ffffff;
+}
+
+a :hover {
+  color: #00ff00;
+}
