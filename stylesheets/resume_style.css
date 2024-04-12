@@ -1,0 +1,21 @@
+dt {
+  font-weight: bold;
+  color: #000;
+  font-size: 24px;
+  margin: .5%;
+}
+
+dd {
+  font-size: 18px;
+  padding: .1%;
+}
+
+.education dt{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.education dd{
+  font-weight: normal;
+  font-size: 18px;
+}
