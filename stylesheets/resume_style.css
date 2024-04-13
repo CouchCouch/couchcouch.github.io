@@ -1,6 +1,5 @@
 dt {
   font-weight: bold;
-  color: #000;
   font-size: 24px;
   margin: .5%;
 }
@@ -22,4 +21,8 @@ dd {
 
 dd a :hover {
   color: #ff6600;
+}
+
+sup {
+  font-size: 12px;
 }

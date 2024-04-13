@@ -24,3 +24,10 @@ function typeWriter(word, id) {
   setTimeout(typeWriterHelper, 1000, word, id);
 }
 
+/**
+ * Function to toggle dark mode
+ */
+function toggleDarkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
