@@ -19,3 +19,7 @@ dd {
   font-weight: normal;
   font-size: 18px;
 }
+
+dd a :hover {
+  color: #ff6600;
+}
