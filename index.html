@@ -10,12 +10,25 @@
   <header>
     <a href="index.html"><h3>Ryan Couchman</h3></a>
     <div class="header_links">
-      <a href="./resume.html">
-        <img height="30" src="./images/contact_page_FILL0_wght400_GRAD0_opsz24.svg" alt="Résumé"></a>
-      <a href="https://www.linkedin.com/in/ryan-couchman-114aa6299">
-        <img height="30" src="./images/linkedin-logo.png" alt="LinkedIn"></a>
-      <a href="https://github.com/CouchCouch">
-        <img height="30" src="images/github-mark.png" alt="GitHub"></a>
+      <div id="light_mode_buttons">
+        <a href="./resume.html">
+          <img id="resume" class="light" height="30" src="./images/resume_icon.svg" alt="Résumé"></a>
+        <a href="https://www.linkedin.com/in/ryan-couchman-114aa6299">
+          <img id="linkedin" height="30" src="./images/linkedin-logo.png" alt="LinkedIn"></a>
+        <a href="https://github.com/CouchCouch">
+          <img id="github" height="30" src="images/github-mark.svg" alt="GitHub"></a>
+        <button onclick="toggleDarkMode()" class="mode-toggle"><img src="images/dark_mode.svg" height="30"></button>
+      </div>
+
+      <div id="dark_mode_buttons">
+        <a href="./resume.html">
+          <img id="resume" height="30" src="./images/resume_icon_light.svg" alt="Résumé"></a>
+        <a href="https://www.linkedin.com/in/ryan-couchman-114aa6299">
+          <img id="linkedin" height="30" src="./images/linkedin-logo-white.png" alt="LinkedIn"></a>
+        <a href="https://github.com/CouchCouch">
+          <img id="github" height="30" src="images/github-mark-white.svg" alt="GitHub"></a>
+        <button onclick="toggleDarkMode()" class="mode-toggle"><img src="images/light_mode.svg" height="30"></button>
+      </div>
     </div>
   </header>
   <div class="hello">

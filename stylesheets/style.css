@@ -69,3 +69,25 @@ h2 {
   font-size: 200%;
   text-align: center;
 }
+
+.dark-mode {
+  margin: 1vw;
+  background-color: #000000;
+  font-family: 'Arial', sans-serif;
+  color: #cacaca;
+}
+
+.dark-mode a {
+  color: #cacaca;
+}
+
+button {
+  background-color: #cacaca;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode button {
+  background-color: #000000;
+}
+
