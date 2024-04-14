@@ -85,9 +85,9 @@ button {
   background-color: #cacaca;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .dark-mode button {
   background-color: #000000;
 }
-
