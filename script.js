@@ -32,7 +32,7 @@ function toggleDarkMode() {
     document.body.classList.remove("dark-mode");
     document.getElementById("light_mode_buttons").style.display = "block";
     document.getElementById("dark_mode_buttons").style.display = "none";
-    setCookie("mode", "", -1); // remove the cookie
+    setCookie("mode", "light", 365); // remove the cookie
   } else {
     document.body.classList.add("dark-mode");
     document.getElementById("light_mode_buttons").style.display = "none";
@@ -73,6 +73,6 @@ window.onload = function() {
   } else {
     document.getElementById("light_mode_buttons").style.display = "block";
     document.getElementById("dark_mode_buttons").style.display = "none";
-    setCookie("mode", "", -1); // remove the cookie
+    setCookie("mode", "light", 365); // remove the cookie
   }
 }
