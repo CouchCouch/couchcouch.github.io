@@ -91,3 +91,12 @@ button {
 .dark-mode button {
   background-color: #000000;
 }
+
+footer {
+  background-color: inherit;
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+}

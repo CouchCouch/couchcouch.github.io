@@ -41,7 +41,12 @@ function toggleDarkMode() {
   }
 }
 
-// Function to set a cookie
+/**
+ * function to set a cookie
+ * @param {string} name 
+ * @param {string} value 
+ * @param {int} days 
+ */
 function setCookie(name, value, days) {
   var expires = "";
   if (days) {
@@ -49,10 +54,14 @@ function setCookie(name, value, days) {
     date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
     expires = "; expires=" + date.toUTCString();
   }
-  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  document.cookie = name + "=" + (value || "") + expires + "; path=/" + "; SameSite=Lax";   
 }
 
-// Function to get a cookie
+/**
+ * function to get a cookie
+ * @param {string} name 
+ * @returns {string | null}
+ */
 function getCookie(name) {
   var nameEQ = name + "=";
   var ca = document.cookie.split(';');
@@ -62,6 +71,14 @@ function getCookie(name) {
     if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
   }
   return null;
+}
+
+/**
+ * function to get time of last modification
+*/
+function lastModified() {
+  date = (new Date(document.lastModified)).toLocaleString("en-US", {year: 'numeric', month: 'long'});
+  return date;
 }
 
 window.onload = function() {

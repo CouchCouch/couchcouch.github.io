@@ -36,8 +36,12 @@
   </div>
   <h3>Hello, my name is Ryan Couchman</h3>
   <p>welcome to my personal site. I will use this a a place to feature my projects and share what I am working on with the world</p>
+  <footer>
+    <p id="signature">Ryan Couchman </p>
+  </footer>
 </body>
 <script>
-typeWriter("hello, World!", "hello");
+  typeWriter("hello, World!", "hello");
+  document.getElementById("signature").innerHTML += lastModified();
 </script>
 </html>
