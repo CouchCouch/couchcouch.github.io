@@ -9,12 +9,12 @@ dd {
   padding: .1%;
 }
 
-.education dt{
+.sublist dt{
   font-size: 20px;
   font-weight: normal;
 }
 
-.education dd{
+.sublist dd{
   font-weight: normal;
   font-size: 18px;
 }
