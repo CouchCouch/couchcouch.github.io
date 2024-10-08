@@ -92,4 +92,5 @@ window.onload = function() {
     document.getElementById("dark_mode_buttons").style.display = "none";
     setCookie("mode", "light", 365); // remove the cookie
   }
+  document.getElementById("signature").innerHTML += lastModified();
 }
