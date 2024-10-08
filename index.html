@@ -18,7 +18,7 @@
         <a href="https://github.com/CouchCouch">
           <img id="github" height="30" src="images/github-mark.svg" alt="GitHub"></a>
         <button onclick="toggleDarkMode()" class="mode-toggle"><img src="images/dark_mode.svg" height="30"></button>
-      </div>
+      </div>  
 
       <div id="dark_mode_buttons">
         <a href="./resume.html">
@@ -35,13 +35,18 @@
     <h1 id="hello">>&nbsp;</h1>
   </div>
   <h3>Hello, my name is Ryan Couchman</h3>
-  <p>welcome to my personal site. I will use this a a place to feature my projects and share what I am working on with the world</p>
+  <p>Welcome to my personal site. I will use this as a place to feature my projects and share what I am working on with the world</p>
+  <div class="projects">
+    <h3>Current Project:</h3>
+    <h4>Least Turns Path finding</h4>
+    <p>I am currently corking on a program to find a route between to locations with the least turns, to do this I will parse an OpenStreetMap file into C++ and then apply a modified A* search algorithm where turns are negatively weighted in the heuristic</p>
+    <p>Status: No public repository, WiP</p>
+  </div>
   <footer>
     <p id="signature">Ryan Couchman </p>
   </footer>
 </body>
 <script>
   typeWriter("hello, World!", "hello");
-  document.getElementById("signature").innerHTML += lastModified();
 </script>
 </html>
