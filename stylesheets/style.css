@@ -1,6 +1,6 @@
 body {
   margin: 1vw;
-  background-color: #cacaca;
+  background: #cacaca;
   font-family: 'Arial', sans-serif;
   color: #000000;
   display: grid;
@@ -74,7 +74,7 @@ h2 {
 
 .dark-mode {
   margin: 1vw;
-  background-color: #000000;
+  background: #1f1e28;
   font-family: 'Arial', sans-serif;
   color: #cacaca;
 }
@@ -91,7 +91,7 @@ button {
 }
 
 .dark-mode button {
-  background-color: #000000;
+  background-color: #1f1e28;
 }
 
 footer {
