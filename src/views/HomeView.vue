@@ -5,9 +5,7 @@
     <div class="flex">
         <h1
             class="mr-0 my-[2%] border-r-4 text-[6vw] font-bold text-orange-500 font-mono border-orange-500 animate-blink-caret"
-        >
-            >&nbsp;hello, World!
-        </h1>
+        >>&nbsp;hello, World!</h1>
     </div>
     <h3>Hello, my name is Ryan Couchman</h3>
     <p>Welcome to my personal site. I will use this as a place to feature my projects and share what I am working on with the world</p>
