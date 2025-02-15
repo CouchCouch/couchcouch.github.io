@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - main, vue-dev
 
 jobs:
   build:
