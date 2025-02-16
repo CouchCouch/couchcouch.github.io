@@ -7,7 +7,7 @@ import Heading from '../components/Heading.vue'
     <dl>
         <dt>Contact</dt>
             <dd>email: <a href="mailto:rfc3567@g.rit.edu">rfc3567@g.rit.edu</a></dd>
-            <dd>LinkedIn: <a href=" www.linkedin.com/in/ryan-couchman"> www.linkedin.com/in/ryan-couchman</a></dd>
+            <dd>LinkedIn: <a href="https://www.linkedin.com/in/ryan-couchman"> www.linkedin.com/in/ryan-couchman</a></dd>
         <dt>Objective</dt>
             <dd>To find a co-op as a Software Engineer for May to December 2025</dd>
         <dt>Education</dt>
