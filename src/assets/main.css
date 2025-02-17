@@ -48,15 +48,15 @@ dt {
 }
 
 dd {
-    @apply text-lg p-0.5 indent-10;
+    @apply text-lg p-0.5 ps-10;
 }
 
 .sublist dt{
-    @apply text-xl m-1 font-normal;
+    @apply text-xl m-1;
 }
 
 .sublist dd{
-    @apply text-lg p-0.5 indent-10;
+    @apply text-lg p-0.5 ps-10;
 }
 
 sup {
