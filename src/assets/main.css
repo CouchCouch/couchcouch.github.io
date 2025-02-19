@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    @apply hover:text-orange-500 transition duration-150 ease-in-out;
+    @apply hover:text-orange-500 transition duration-150 ease-in-out hover:animate-pulse;
 }
 
 img {

@@ -1,11 +1,8 @@
-<script setup>
-</script>
-
 <template>
     <div class="flex">
         <h1
             class="mr-0 my-[2%] border-r-4 text-[6vw] font-bold text-orange-500 font-mono border-orange-500 animate-blink-caret"
-        >>&nbsp;hello, World!</h1>
+        >>&nbsp;{{typeValue}}</h1>
     </div>
     <h3>Hello, my name is Ryan Couchman</h3>
     <p>Welcome to my personal site. I will use this as a place to feature my projects and share what I am working on with the world</p>
@@ -22,3 +19,57 @@
         <p>Status: Public Repository: <a href=https://github.com/CouchCouch/rcouchlib>rcouchlib</a>, WiP</p>
     </div>
 </template>
+
+<script>
+export default {
+    name: "typewriter",
+    data: () => {
+        return {
+            typeValue: "",
+            typeStatus: false,
+            displayTextArray: ["hello, World!"],
+            typingSpeed: 100,
+            erasingSpeed: 100,
+            newTextDelay: 2000,
+            displayTextArrayIndex: 0,
+            charIndex: 0,
+        };
+    },
+    props: {},
+    created() {
+        setTimeout(this.typeText, this.newTextDelay + 200);
+    },
+    methods: {
+        typeText() {
+            if(this.charIndex < this.displayTextArray[this.displayTextArrayIndex].length) {
+                if(!this.typeStatus) this. typeStatus = true;
+                this.typeValue += this.displayTextArray[this.displayTextArrayIndex].charAt(
+                    this.charIndex
+                );
+                this.charIndex += 1;
+                setTimeout(this.typeText, this.typingSpeed);
+            } else {
+                this.typeStatus = false;
+                //setTimeout(this.eraseText, this.newTextDelay);
+            }
+        },
+        /*eraseText() {
+            if(this.charIndex > 0) {
+                if(!this.typeStatus) this.typeStatus = true;
+                this.typeValue = this.displayTextArray[this.displayTextArrayIndex].substring(
+                    0,
+                    this.charIndex - 1
+                );
+                this.charIndex -= 1;
+                setTimeout(this.eraseText, this.erasingSpeed);
+            } else {
+                this.typeStatus = false;
+                this.displayTextArrayIndex += 1;
+                if(this.displayTextArrayIndex >= this.displayTextArray.length)
+                    this.displayTextArrayIndex = 0;
+                setTimeout(this.typeText, this.typingSpeed + 1000);
+            }
+        },*/
+    },
+};
+</script>
