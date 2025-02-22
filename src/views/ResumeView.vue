@@ -9,13 +9,13 @@ import Heading from '../components/Heading.vue'
             <dd>email: <a href="mailto:rfc3567@g.rit.edu">rfc3567@g.rit.edu</a></dd>
             <dd>LinkedIn: <a href="https://www.linkedin.com/in/ryan-couchman"> www.linkedin.com/in/ryan-couchman</a></dd>
         <dt>Objective</dt>
-            <dd>To find a co-op as a Software Engineer for May to December 2025</dd>
+            <dd>To find a co-op as a Software Engineer for May or August to December 2025</dd>
         <dt>Education</dt>
             <dl>
                 <div class="sublist">
                     <dt>Rochester Institute of Technology</dt>
                     <dd>Bachelor of Science in Software Engineering Expected Graduation: December 2027</dd>
-                    <dd>GPA 3.6, Dean's List Fall 2023, Dean's List Spring 2024</dd>
+                    <dd>GPA 3.5, Dean's List Fall 2023, Dean's List Spring 2024</dd>
                     <dd>Related Courses: Programming Language Concepts, Data Structures & Problem Solving, Engineering of Subsystems, Software Engineering, Software Process and Project Management, Web Engineering</dd>
                 </div>
             </dl>
