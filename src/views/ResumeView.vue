@@ -20,12 +20,19 @@ import Heading from '../components/Heading.vue'
                 </div>
             </dl>
         <dt>Skills</dt>
-            <dd>Languages: Python, C, C++, Java, SpringBoot, AngularJS, PostgreSQL, React, UML</dd>
-            <dd>OS and Software: Linux, Windows, MS Office, Google Workspace, Multisim</dd>
+            <dd>Languages: Python, C, C++, Java, SpringBoot, AngularJS, PostgreSQL, React, UML, Go, TailwindCSS</dd>
+            <dd>OS and Software: Linux, Windows, MS Office, Google Workspace, nginx, Git</dd>
             <dd>Hardware: Fused Filament Fabrication 3D Printing, Arduino, Vex Robotics</dd>
         <dt>Projects</dt>
             <dl>
                 <div class="sublist">
+                    <dt>Embedded MIDI Player</dt>
+                        <dd>Software Design for Computing Systems January 2025-Present</dd>
+                        <dd>Creating a MIDI player on a STM32 Board</dd>
+                    <dt>Inventory Management System</dt>
+                        <dd>Personal December 2024-Present</dd>
+                        <dd>Creating an Inventory Management System using PostgreSQL, Go, React with Vite and Tailwind CSS</dd>
+                        <dd>Implementing an RESTful API in Go using Chi to connect the PostgreSQL Database with the React UI</dd>
                     <dt>Chat Application</dt>
                         <dd>Web Engineering August 2024 - December 2024</dd>
                         <dd>Creating a chat app using Python, PostgreSQL, psycopg2, React</dd>
@@ -45,8 +52,9 @@ import Heading from '../components/Heading.vue'
         <dt>Experience</dt>
             <dl>
                 <div id="sublist" class="sublist">
-                    <dt>Rochester Institute of Technology</dt>
-                        <dd>Course Assistant Software Engineering 101, August 2024 - Present</dd>
+                    <dt>Course Assistant Rochester Institute of Technology</dt>
+                        <dd>Software Engineering 101, August 2024 - December 2024</dd>
+                        <dd>Web Engineering, January 2025 - May 2025</dd>
                         <dd>Grade homework and assist students with assignments</dd>
                     <dt>YMCA Buffalo Niagara</dt>
                         <dd>Rock Wall Specialist, July 2023 - August 2023, June 2024 - August 2024</dd>
