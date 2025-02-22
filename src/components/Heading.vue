@@ -26,7 +26,7 @@
                         alt="GitHub"
                     >
                 </a>
-                <button
+                <!--button
                     onclick="toggleDarkMode()"
                     class="mode-toggle"
                 >
@@ -34,7 +34,7 @@
                         class="h-8"
                         src="../assets/dark_mode.svg"
                     >
-                </button>
+                </button-->
             </div>
 
             <div class="hidden dark:inline-flex">
@@ -59,7 +59,7 @@
                         alt="GitHub"
                     >
                 </a>
-                <button
+                <!--button
                     onclick="toggleDarkMode()"
                     class="mode-toggle"
                 >
@@ -67,7 +67,7 @@
                         class="h-8"
                         src="../assets/light_mode.svg"
                     >
-                </button>
+                </button-->
             </div>
         </div>
     </header>
