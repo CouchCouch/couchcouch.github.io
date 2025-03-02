@@ -26,6 +26,9 @@ import Heading from '../components/Heading.vue'
         <dt>Projects</dt>
             <dl>
                 <div class="sublist">
+                    <dt>nutRITion</dt>
+                        <dd>Created and deployed a web app that used AI to create a nutritious meal from items available at RIT dining locations</dd>
+                        <dd>Worked on the initial design for the frontend and then did some debugging and optimization on other parts of the project</dd>
                     <dt>Embedded MIDI Player</dt>
                         <dd>Software Design for Computing Systems January 2025-Present</dd>
                         <dd>Creating a MIDI player on a STM32 Board</dd>

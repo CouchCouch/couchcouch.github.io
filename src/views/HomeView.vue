@@ -53,7 +53,7 @@ export default {
                 //setTimeout(this.eraseText, this.newTextDelay);
             }
         },
-        /*eraseText() {
+        eraseText() {
             if(this.charIndex > 0) {
                 if(!this.typeStatus) this.typeStatus = true;
                 this.typeValue = this.displayTextArray[this.displayTextArrayIndex].substring(
@@ -67,9 +67,9 @@ export default {
                 this.displayTextArrayIndex += 1;
                 if(this.displayTextArrayIndex >= this.displayTextArray.length)
                     this.displayTextArrayIndex = 0;
-                setTimeout(this.typeText, this.typingSpeed + 1000);
+                //setTimeout(this.typeText, this.typingSpeed + 1000);
             }
-        },*/
+        },
     },
 };
 </script>
