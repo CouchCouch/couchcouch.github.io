@@ -39,7 +39,7 @@ p {
 
     @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: #ff6600; }
+        50% { border-color: var(--orange-500); }
     }
 }
 
