@@ -1,7 +1,3 @@
-<script setup>
-import Heading from '../components/Heading.vue'
-</script>
-
 <template>
     <h2>Resume</h2>
     <dl>

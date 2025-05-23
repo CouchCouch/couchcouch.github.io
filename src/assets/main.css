@@ -2,8 +2,7 @@
 
 body {
     @apply m-[1vw];
-    @apply bg-slate-300;
-    @apply dark:bg-slate-900;
+    @apply bg-slate-300 dark:bg-slate-900;
     @apply grid;
     @apply grid-rows-[auto,1fr,auto];
     @apply font-["Arial"];
