@@ -29,8 +29,8 @@
                 <dd>Created a cross backup per agent file indexing and searching with another intern</dd>
                 <dd>Worked in an agile environment at a startup</dd>
                 <dt>Course Assistant Rochester Institute of Technology</dt>
-                <dd>Software Engineering 101, August 2024 - December 2024</dd>
-                <dd>Web Engineering, January 2025 - May 2025</dd>
+                <dd>Software Engineering 101, August 2024 - December 2024, August 2025 - December 2025</dd>
+                <dd>Web Engineering, January 2025 - May 2025, August 2025 - December 2025</dd>
                 <dd>Grade homework and assist students with assignments</dd>
                 <dt>YMCA Buffalo Niagara</dt>
                 <dd>Rock Wall Specialist, July 2023 - August 2023, June 2024 - August 2024</dd>
