@@ -10,7 +10,7 @@
             <dl>
                 <div class="sublist">
                     <dt>Rochester Institute of Technology</dt>
-                    <dd>Bachelor of Science in Software Engineering Expected Graduation: December 2027</dd>
+                    <dd>Bachelor of Science in Software Engineering Expected Graduation: May 2027</dd>
                     <dd>GPA 3.4, Dean's List Fall 2023, Dean's List Spring 2024</dd>
                     <dd>Related Courses: Data Structures & Problem Solving, Engineering of Subsystems, Software Process and Project Management, Web Engineering, Software Design for Computing Systems, Human Centered Requirements and Design, Engineering Secure Software, Software Architecture and Requirements, Analysis of Algorithms</dd>
                 </div>
