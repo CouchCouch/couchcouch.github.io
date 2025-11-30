@@ -65,3 +65,11 @@ sup {
 .header-icon {
     @apply h-6 md:h-8
 }
+
+.wishlist ul {
+    @apply list-disc pl-6 text-lg
+}
+
+.wishlist a {
+    @apply text-orange-500 font-semibold
+}
