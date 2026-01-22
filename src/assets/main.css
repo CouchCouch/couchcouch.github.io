@@ -13,24 +13,20 @@ a {
     @apply hover:text-orange-500 transition duration-150 ease-in-out hover:animate-pulse;
 }
 
-img {
-    @apply ms-1 md:mx-2.5 transition duration-150 ease-in-out hover:scale-150 object-contain;
-}
-
 h2 {
-    @apply text-2xl md:text-3xl font-bold text-center;
+    @apply text-2xl md:text-4xl font-bold text-center;
 }
 
 h3 {
-    @apply text-xl md:text-2xl font-bold;
+    @apply text-xl md:text-3xl font-bold;
 }
 
 h4 {
-    @apply text-lg md:text-xl font-bold mt-2;
+    @apply text-lg md:text-2xl font-bold mt-2;
 }
 
 p {
-    @apply text-base md:text-lg;
+    @apply text-base md:text-xl font-normal mt-1 md:mt-0.5;
 }
 
 @theme {
@@ -63,7 +59,7 @@ sup {
 }
 
 .header-icon {
-    @apply h-6 md:h-8
+    @apply size-6 md:size-8 mx-1 md:mx-2.5 transition duration-150 ease-in-out hover:scale-150 object-contain;
 }
 
 .wishlist ul {

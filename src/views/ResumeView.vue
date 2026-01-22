@@ -4,25 +4,29 @@
         <dt>Contact</dt>
             <dd>email: <a href="mailto:rfc3567@g.rit.edu">rfc3567@g.rit.edu</a></dd>
             <dd>LinkedIn: <a href="https://www.linkedin.com/in/ryan-couchman"> www.linkedin.com/in/ryan-couchman</a></dd>
+            <dd>GitHub: <a href="https://github.com/CouchCouch"> github.com/CouchCouch</a></dd>
         <dt>Objective</dt>
-            <dd>To find a co-op as a Software Engineer for May or January to August 2026</dd>
+            <dd>To find a co-op as a Software Engineer from May to August 2026</dd>
         <dt>Education</dt>
             <dl>
                 <div class="sublist">
                     <dt>Rochester Institute of Technology</dt>
                     <dd>Bachelor of Science in Software Engineering Expected Graduation: May 2027</dd>
-                    <dd>GPA 3.4, Dean's List Fall 2023, Dean's List Spring 2024</dd>
+                    <dd>GPA 3.3, Dean's List Fall 2023, Dean's List Spring 2024</dd>
                     <dd>Related Courses: Data Structures & Problem Solving, Engineering of Subsystems, Software Process and Project Management, Web Engineering, Software Design for Computing Systems, Human Centered Requirements and Design, Engineering Secure Software, Software Architecture and Requirements, Analysis of Algorithms</dd>
                 </div>
             </dl>
         <dt>Skills</dt>
-            <dd>Languages: Python, C, C++, Java, SQL, React, UML, Go, Linux Shell Script</dd>
+            <dd>Languages: Go, C, C++, Java, Python, JavaScript, TypeScript, Linux Shell Script</dd>
             <dd>Frameworks: Spring Boot, Flask, React, Tailwind CSS, gRPC</dd>
-            <dd>OS and Software: Linux, Windows, MS Office, Google Workspace, nginx, Git, ArcGIS, Make</dd>
-            <dd>Hardware: Fused Filament Fabrication 3D Printing, Arduino, Vex Robotics</dd>
+            <dd>OS and Software: Linux, nginx, Git, Windows, MS Office, Google Workspace, ArcGIS, Make</dd>
+            <dd>Hardware: STM32, Arduino, Fused Filament Fabrication 3D Printing, Vex Robotics</dd>
         <dt>Experience</dt>
         <dl>
             <div id="sublist" class="sublist">
+                <dt>Full Stack Developer at CogBias AI</dt>
+                <dd>January 2026 - Present</dd>
+                <dd>Working on AI powered browser extension to detect and correct cognitive biases</dd>
                 <dt>Intern at Slide</dt>
                 <dd>June 2025 - August 2025</dd>
                 <dd>Worked on their BCDR product for MSPs</dd>

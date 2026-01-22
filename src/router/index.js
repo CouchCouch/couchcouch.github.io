@@ -18,11 +18,6 @@ const router = createRouter({
       component: () => import('../views/ResumeView.vue'),
     },
     {
-      path: '/wishlist',
-      name: 'wishlist',
-      component: () => import('../views/WishListView.vue'),
-    },
-    {
       path: '/:catchAll(.*)*',
       component: () => import('../views/NotFound.vue')
     }
