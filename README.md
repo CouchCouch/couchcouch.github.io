@@ -1,29 +1,29 @@
 # couchcouch.github.io
 
-This template should help get you started developing with Vue 3 in Vite.
+Personal site built with [Hugo](https://gohugo.io/).
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Development
 
 ```sh
-npm install
+hugo server -D
 ```
 
-### Compile and Hot-Reload for Development
+## Build
 
 ```sh
-npm run dev
+hugo
 ```
 
-### Compile and Minify for Production
+Output goes to `public/`.
+
+## Deploy
+
+### VPS (rsync)
 
 ```sh
-npm run build
+./deploy.sh user@vps:/var/www/site
 ```
+
+### GitHub Pages
+
+Push to `main` — the GitHub Action handles it automatically.

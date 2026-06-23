@@ -1,0 +1,15 @@
+<header>
+  <a href="/" class="site-name">{{ .Site.Title }}</a>
+  <nav>
+    <a href="/projects/">{{ partial "icons/tool.html" . }}<span>Projects</span></a>
+    <a href="/resume/">{{ partial "icons/file-text.html" . }}<span>Resume</span></a>
+    <a href="/blog/">{{ partial "icons/rss.html" . }}<span>Blog</span></a>
+    <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener" aria-label="GitHub">{{ partial "icons/github.html" . }}</a>
+    <a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{ partial "icons/linkedin.html" . }}</a>
+    <a href="{{ .Site.Params.gitea }}" target="_blank" rel="noopener" aria-label="Gitea">{{ partial "icons/gitea.html" . }}</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="icon-sun">{{ partial "icons/sun.html" . }}</span>
+      <span class="icon-moon">{{ partial "icons/moon.html" . }}</span>
+    </button>
+  </nav>
+</header>

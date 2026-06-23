@@ -1,0 +1,25 @@
+baseURL = "https://couchcouch.github.io"
+locale = "en-US"
+title = "Ryan Couchman"
+paginate = 10
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[params]
+  author = "Ryan Couchman"
+  description = "Software engineering student at RIT"
+  email = "rfc3567@g.rit.edu"
+  github = "https://github.com/CouchCouch"
+  linkedin = "https://www.linkedin.com/in/ryan-couchman"
+  gitea = "https://gitea.ryancouchman.me/couch"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
